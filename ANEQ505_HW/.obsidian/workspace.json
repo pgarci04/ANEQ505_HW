@@ -20,8 +20,23 @@
               "icon": "lucide-file",
               "title": "Welcome"
             }
+          },
+          {
+            "id": "cd8200cc62a994dd",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Test!!.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Test!!"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       },
       {
         "id": "1d6e8f8d2ebb4cd1",
@@ -190,6 +205,7 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "obsidian-git:Open Git source control": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
@@ -199,8 +215,9 @@
       "bases:Create new base": false
     }
   },
-  "active": "4d382195fe7b3762",
+  "active": "cd8200cc62a994dd",
   "lastOpenFiles": [
-    "Welcome.md"
+    "Welcome.md",
+    "Test!!.md"
   ]
 }
