@@ -67,7 +67,7 @@ module load qiime2/2024.10_amplicon
 
 6.    Import the sequences/reads into a Qiime2-readable format (.qza). Note this might take 10-20 mins
 
-We decided to write and submit this as a script because I needed to go to class and didn't want the analysis to be interupted
+We decided to write and submit this as a script because I needed to go to class and didn't want the analysis to be interrupted
 
 See script below: import.sh
 ```
@@ -94,7 +94,7 @@ To submit script
 ```
 sbatch import.sh
 ```
-
+job failed :( directory name was changed (by me oops) and failed the job.
 
 7.    Demultiplex the reads by submitting a job. Note this may take ~30 mins
 
