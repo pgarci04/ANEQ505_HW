@@ -4,55 +4,6 @@
     "type": "split",
     "children": [
       {
-        "id": "71e400019a69213f",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "4d382195fe7b3762",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Welcome.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Welcome"
-            }
-          },
-          {
-            "id": "cd8200cc62a994dd",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Test!!.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Test!!"
-            }
-          },
-          {
-            "id": "5de7a634c848cb89",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "ANEQ505 1.30.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "ANEQ505 1.30"
-            }
-          }
-        ],
-        "currentTab": 2
-      },
-      {
         "id": "1d6e8f8d2ebb4cd1",
         "type": "tabs",
         "children": [
@@ -60,10 +11,14 @@
             "id": "58a4ff35f26367f6",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
+              "type": "markdown",
+              "state": {
+                "file": "01_homework/homework_1_PC Cow data.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "homework_1_PC Cow data"
             }
           }
         ]
@@ -231,9 +186,13 @@
   },
   "active": "58a4ff35f26367f6",
   "lastOpenFiles": [
-    "ANEQ505 1.30.md",
-    "Test!!.md",
+    "01_homework/Untitled.md",
+    "01_homework/homework_1_PC Cow data.md",
+    "Untitled",
     "Welcome.md",
+    "Test!!.md",
+    "Untitled 1",
+    "ANEQ505 1.30.md",
     "01_homework"
   ]
 }
