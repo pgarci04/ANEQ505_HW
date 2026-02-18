@@ -67,8 +67,32 @@ module load qiime2/2024.10_amplicon
 
 6.    Import the sequences/reads into a Qiime2-readable format (.qza). Note this might take 10-20 mins
 
+We decided to write and submit this as a script because I needed to go to class and didn't want the analysis to be interupted
+
+See script below: import.sh
 ```
+#!/bin/bash
+#SBATCH --job-name=demux
+#SBATCH --nodes=1
+#SBATCH --ntasks=12
+#SBATCH --partition=amilan
+#SBATCH --time=02:00:00
+#SBATCH --mail-type=ALL
+#SBATCH --output=slurm-%j.out
+#SBATCH --qos=normal
+#SBATCH --mail-user=ADD_YOUR_EMAIL@colostate.edu
+
+# Activate Qiime2
+module purge
+module load qiime2/2024.10_amplicon
+
+# Importing qiime2 sequences
 qiime tools import \--type EMPPairedEndSequences \--input-path raw_reads \--output-path cow_reads.qza
+```
+
+To submit script
+```
+sbatch import.sh
 ```
 
 
