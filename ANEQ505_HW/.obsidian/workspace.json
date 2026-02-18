@@ -20,6 +20,18 @@
               "icon": "lucide-file",
               "title": "homework_1_PC Cow data"
             }
+          },
+          {
+            "id": "94ac3c5a0de63102",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.11.7"
+              },
+              "icon": "lucide-book-up",
+              "title": "Release Notes 1.11.7"
+            }
           }
         ]
       }
