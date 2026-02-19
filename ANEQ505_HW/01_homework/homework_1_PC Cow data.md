@@ -116,10 +116,10 @@ a.    Go into your slurm directory using OnDemand. Create a new file named **
 
 #What needs to go here in order to “turn on” qiime2? Hint: we do these 2 commands every time we activate qiime2!
 
+# Activate Qiime2
 module purge
+module load qiime2/2024.10_amplicon
 
-module load
- 
 ```
 
 #change the following line if your file path looks different
