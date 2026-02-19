@@ -112,9 +112,15 @@ a.    Go into your slurm directory using OnDemand. Create a new file named **
 #SBATCH --mail-type=ALL
 #SBATCH --output=slurm-%j.out
 #SBATCH --qos=normal
-#SBATCH --mail-user=ADD_YOUR_EMAIL@colostate.edu
+#SBATCH --mail-user=pgarci58@colostate.edu
 
 #What needs to go here in order to “turn on” qiime2? Hint: we do these 2 commands every time we activate qiime2!
+
+module purge
+
+module load
+ 
+```
 
 #change the following line if your file path looks different
 cd /scratch/alpine/$USER/cow/demux
