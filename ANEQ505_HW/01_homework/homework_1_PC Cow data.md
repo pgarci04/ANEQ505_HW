@@ -129,6 +129,9 @@ cd /scratch/alpine/$USER/cow/demux
 
 qiime demux emp-paired \--m-barcodes-file ../metadata/ADD BARCODE FILE NAME HERE \--m-barcodes-column barcode \--p-rev-comp-mapping-barcodes \--p-rev-comp-barcodes \--i-seqs ../cow_reads.qza \--o-per-sample-sequences demux_cow.qza \--o-error-correction-details cow_demux_error.qza
 
+```
+```qiime demux emp-paired \--m-barcodes-file ../metadata/cow_reads.qza \--m-barcodes-column barcode \--p-rev-comp-mapping-barcodes \--p-rev-comp-barcodes \--i-seqs ../cow_reads.qza \--o-per-sample-sequences demux_cow.qza \--o-error-correction-details cow_demux_error.qza
+
 #visualize the read quality
 qiime demux summarize \--i-data demux_cow.qza \--o-visualization demux_cow.qzv
 ```
@@ -139,6 +142,7 @@ qiime demux summarize \--i-data demux_cow.qza \--o-visualization demux_cow.qzv
  dos2unix name of your script.sh
  sbatch name of your script.sh
  ```
+
 
 8.    Denoise
 
