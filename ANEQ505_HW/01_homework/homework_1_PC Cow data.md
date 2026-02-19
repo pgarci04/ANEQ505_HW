@@ -147,7 +147,8 @@ qiime demux summarize \--i-data demux_cow.qza \--o-visualization demux_cow.qzv
  sbatch demux.sh
  
  ```
-
+Did not run in slurm directory, command was ran under cow directory for access to demux.sh file
+- Commands worked
 
 8.    Denoise
 
@@ -169,6 +170,14 @@ qiime metadata tabulate \--m-input-file cow_dada2_stats.qza \--o-visualization 
 qiime feature-table summarize \--i-table cow_table_dada2.qza \--m-sample-metadata-file ../metadata/cow_metadata.txt \--o-visualization YOUR_OUTPUT_FILENAME_HERE.qzv
 
 qiime feature-table tabulate-seqs \--i-data cow_seqs_dada2.qza \--o-visualization YOUR_OUTPUT_FILENAME_HERE.qzv
+
+Edited code:
+
+qiime metadata tabulate \--m-input-file cow_dada2_stats.qza \--o-visualization cow_dada2_stats.qzv
+
+qiime feature-table summarize \--i-table cow_table_dada2.qza \--m-sample-metadata-file ../metadata/cow_metadata.txt \--o-visualization cow_table_dada2.qzv
+
+qiime feature-table tabulate-seqs \--i-data cow_seqs_dada2.qza \--o-visualization cow_seqs_dada2.qzv
 ```
 
 	
