@@ -95,6 +95,7 @@ To submit script
 sbatch import.sh
 ```
 job failed :( directory name was changed (by me oops) and failed the job.
+- Tried the script again and it worked :) 
 
 7.    Demultiplex the reads by submitting a job. Note this may take ~30 mins
 
