@@ -141,6 +141,10 @@ qiime demux summarize \--i-data demux_cow.qza \--o-visualization demux_cow.qzv
  ```
  dos2unix name of your script.sh
  sbatch name of your script.sh
+ 
+ dos2unix demux.sh
+ sbatch demux.sh
+ 
  ```
 
 
