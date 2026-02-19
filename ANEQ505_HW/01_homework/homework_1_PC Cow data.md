@@ -129,6 +129,7 @@ cd /scratch/alpine/$USER/cow/demux
 
 qiime demux emp-paired \--m-barcodes-file ../metadata/ADD BARCODE FILE NAME HERE \--m-barcodes-column barcode \--p-rev-comp-mapping-barcodes \--p-rev-comp-barcodes \--i-seqs ../cow_reads.qza \--o-per-sample-sequences demux_cow.qza \--o-error-correction-details cow_demux_error.qza
 
+- barcode file name added below
 ```
 ```qiime demux emp-paired \--m-barcodes-file ../metadata/cow_barcodes.txt --m-barcodes-column barcode \--p-rev-comp-mapping-barcodes \--p-rev-comp-barcodes \--i-seqs ../cow_reads.qza \--o-per-sample-sequences demux_cow.qza \--o-error-correction-details cow_demux_error.qza
 
