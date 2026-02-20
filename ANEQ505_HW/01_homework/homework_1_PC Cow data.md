@@ -196,11 +196,13 @@ Briefly **describe** the key information from each denoising output file:
 
 **Answer the following questions:**  
 1. Where does the median Q-score begin to dip below Q30 for the forward reads and the reverse reads?
-	1. 
+	1. Forward reads drops below Q30: 220 bp
+	2. Reverse reads drop below Q30: 222 bp
 2. What is the mean reads per sample?
-	1. 
+	1. 11,116 mean reads per sample
 3. How long are the reads?
-	1. 
+	1. Forward read: 251 bp
+	2. Reverse read: 251 bp
 4. What is the maximum length of all your sequences?
 	1. 
 5. Which sample (not including extraction controls starting with EC) lost the highest % of reads?
