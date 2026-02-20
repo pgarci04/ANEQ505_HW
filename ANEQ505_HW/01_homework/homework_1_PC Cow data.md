@@ -190,9 +190,9 @@ Briefly **describe** the key information from each denoising output file:
 1. Representative Sequences
 	1. In the representative sequences they have data on our ASV's however, after denoising they have been cleaned up a bit. It's also our sequences with their feature ID the corresponds to it's own sequence.
 2. Denoising Stats
-	1. In denoising stats, we're checking to see how much of our reads had been
+	1. In denoising stats, we're checking to see how much of a portion of our reads had been removed. Hoping that it wasn't a large amount.
 3. Denoised Table
-	1. 
+	1. Our denoising table gives a summary of all our samples on one 
 
 **Answer the following questions:**  
 1. Where does the median Q-score begin to dip below Q30 for the forward reads and the reverse reads?
