@@ -206,9 +206,9 @@ Briefly **describe** the key information from each denoising output file:
 4. What is the maximum length of all your sequences?
 	1. 427
 5. Which sample (not including extraction controls starting with EC) lost the highest % of reads?
-	1. 
+	1. Sample cow oral 20
 6. Why did you chose to trim or truncate where you did?
-	1. 
+	1. The trim was at 250, and that is because when looking at around 250 bp we already see the quality score drop.
 
 **To submit your homework from this document:**
 write all of your commands here, then use command+P (for mac) or control+P (for windows) and search Git: commit. click it. then search for Git: Push and click it. go to your github online to check that it pushed correctly. we will check your github for homework credit. 
