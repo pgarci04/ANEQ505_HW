@@ -188,8 +188,11 @@ qiime feature-table tabulate-seqs \--i-data cow_seqs_dada2.qza \--o-visualizatio
 	
 Briefly **describe** the key information from each denoising output file:
 1. Representative Sequences
+	1. In the representative sequences they have data on our ASV's however, after denoising they have been cleaned up a bit. It's also our sequences with their feature ID the corresponds to it's own sequence.
 2. Denoising Stats
+	1. In denoising stats, we're checking to see how much of our reads had been
 3. Denoised Table
+	1. 
 
 **Answer the following questions:**  
 1. Where does the median Q-score begin to dip below Q30 for the forward reads and the reverse reads?
