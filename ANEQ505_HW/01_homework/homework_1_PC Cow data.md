@@ -192,15 +192,21 @@ Briefly **describe** the key information from each denoising output file:
 2. Denoising Stats
 	1. In denoising stats, we're checking to see how much of a portion of our reads had been removed. Hoping that it wasn't a large amount.
 3. Denoised Table
-	1. Our denoising table gives a summary of all our samples on one 
+	1. Our denoising table gives a summary of all our samples and shows the feature of those ASV's. It will then tell you how many times we see a certain feature ID show up in a sequence of our samples.
 
 **Answer the following questions:**  
 1. Where does the median Q-score begin to dip below Q30 for the forward reads and the reverse reads?
+	1. 
 2. What is the mean reads per sample?
+	1. 
 3. How long are the reads?
+	1. 
 4. What is the maximum length of all your sequences?
+	1. 
 5. Which sample (not including extraction controls starting with EC) lost the highest % of reads?
+	1. 
 6. Why did you chose to trim or truncate where you did?
+	1. 
 
 **To submit your homework from this document:**
 write all of your commands here, then use command+P (for mac) or control+P (for windows) and search Git: commit. click it. then search for Git: Push and click it. go to your github online to check that it pushed correctly. we will check your github for homework credit. 
