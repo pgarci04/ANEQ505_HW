@@ -204,7 +204,7 @@ Briefly **describe** the key information from each denoising output file:
 	1. Forward read: 251 bp
 	2. Reverse read: 251 bp
 4. What is the maximum length of all your sequences?
-	1. 
+	1. 427
 5. Which sample (not including extraction controls starting with EC) lost the highest % of reads?
 	1. 
 6. Why did you chose to trim or truncate where you did?
