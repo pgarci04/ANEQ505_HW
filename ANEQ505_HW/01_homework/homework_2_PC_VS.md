@@ -38,6 +38,7 @@ qiime feature-table filter-features \--i-table cow_table_dada2.qza \--m-metadata
 qiime feature-table summarize \--i-table cow_table_dada2_filtered300.qza \--m-sample-metadata-file ../metadata/cow_metadata.txt \--o-visualization cow_table_dada2_filtered300.qzv
 ```
 
+All commands went through :) slay
 
 ### Classify taxonomy using GreenGenes2
 
@@ -54,12 +55,19 @@ wget --no-check-certificate https://ftp.microbio.me/greengenes_release/2024.09/2
 Classify taxonomy using GreenGenes2 classify the ASVs (takes about 5 mins). ~={red}(1point)=~
 ```
 qiime feature-classifier classify-sklearn \--i-reads ../dada2/cow_seqs_dada2_filtered300.qza \--i-classifier NAME OF CLASSIFIER HERE.qza \--o-classification taxonomy_gg2_filtered.qza
+
+qiime feature-classifier classify-sklearn \--i-reads ../dada2/cow_seqs_dada2_filtered300.qza \--i-classifier 2024.09.backbone.v4.nb.qza \--o-classification taxonomy_gg2_filtered.qza
+
 ```
+Command ran and worked :) so slay
 
 Visualize the taxonomy of your ASVs: (~={red}1point)=~
 ```
 qiime metadata tabulate \--m-input-file NAME OF TAXONOMY FILE.qza \--o-visualization taxonomy_gg2_filtered.qzv
+
+qiime metadata tabulate \--m-input-file taxonomy_gg2_filtered.qza \--o-visualization taxonomy_gg2_filtered.qzv
 ```
+Command worked :)
 
 - Filter mitochondria and chloroplast out to generate a filtered feature table, keep only ASVs with a class or lower taxonomy. fill in the blank (--p-exclude) to exclude these DNA. Fill in the blank to include only class level or below classifications. ~={red}(1point)=~
 ```
