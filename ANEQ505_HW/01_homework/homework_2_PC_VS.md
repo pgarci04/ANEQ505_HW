@@ -106,12 +106,13 @@ Going based off the taxaplots, fecal sampling has a higher alpha diversity. Feca
 Some of the samples do contain archaea yes. However, depending on the body site, udder and skin samples have more archaea present compared to the other samples.
 
 **Question 6**: why do we filter out sp004296775?
-
+sp004296775... is a contaminant that we don't want to be in our reads. It doesn't necessarily have any specific taxonomic name and just show up in our data that doesn't need to be there.
 
 **Question 7**: what is the difference between these two flags? 
 --p-exclude mitochondria,chloroplast,sp004296775 \
 --p-include c__ \
 
+With exclude, we make sure we're filtering OUT mitochondria, chloroplast and sp004296775
 
 **Question 8**: do the positive controls look the same as each other? Yes or No?
 
