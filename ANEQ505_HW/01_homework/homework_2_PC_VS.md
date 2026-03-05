@@ -112,14 +112,16 @@ sp004296775... is a contaminant that we don't want to be in our reads. It doesn'
 --p-exclude mitochondria,chloroplast,sp004296775 \
 --p-include c__ \
 
-With exclude, we make sure we're filtering OUT mitochondria, chloroplast and sp004296775
+With exclude, we make sure we're filtering OUT mitochondria, chloroplast and sp004296775. But with being specific to include up to class it makes things more specific. If we were keeping it open and we got data coming back with only it's domain or phylum, that's too broad and doesn't do us too much.
 
 **Question 8**: do the positive controls look the same as each other? Yes or No?
+Yes, they do look similar to one another.
 
 **Question 9**: Do the negative/extraction controls (Samples labeled as EC), look like the positive controls? Yes or no? 
+No, they do not look the same compared to the positive controls.
 
 **Question 10**: do the negative/extraction controls (Samples labeled as EC), look like the real samples? Yes or no?
-
+I would
 ## Phylogenetic tree ~={red}(1 point)=~
 Create a job script to run the phylogenetic tree building. Remember you must start a new terminal session, navigate to your slurm directory, and then submit the job. You do NOT need to start any other interactive sessions.This job will take about an hour. 
 
