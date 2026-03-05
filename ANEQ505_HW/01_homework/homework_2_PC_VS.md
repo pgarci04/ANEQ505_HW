@@ -87,10 +87,17 @@ Slay taxa bar plot visualized :)
 ## Filtered Taxa Bar Plot Questions ~={red}(10 points)=~
 
 **Question 1**: Attach a picture of your taxa bar plot, organized by cow sampling location (body_site) at the level 7 taxonomic level. What general trends do you notice? 
+![[taxa_barplot_nomitochloro_gg2_filtered300.qzv - QIIME 2 View.pdf]]
+I notice that fecal samples have a greater diversity of organisms present compared to other samples. Skin samples are fairly diverse as well. 
 
 **_Question 2**: What are the top 2 most abundant bacterial **classes** in the fecal samples? 
+most abundant,
+c__Clostridia_258483;o__Oscillospirales;f__Oscillospiraceae_88309;g__Faecousia;s__Faecousia sp000434635
+second most,
+c__Bacteroidia;o__Bacteroidales;f__UBA932;g__Cryptobacteroides;s__Cryptobacteroides sp902787255
 
 **_Question 3**: What highly abundant ASV is shared between both the udder and skin samples?
+
 
 **_Question 4**: Which samples (still sorted by body_site) have higher alpha diversity in terms of observed features?
 
