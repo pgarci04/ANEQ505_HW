@@ -73,10 +73,10 @@ Command worked :)
 ```
 qiime taxa filter-table \--i-table ../dada2/<YourDenoisedTable.qza> \--i-taxonomy taxonomy_gg2.qza \--p-exclude WHAT TO EXCLUDE HERE \--p-include WHAT TO INCLUDE HERE \--o-filtered-table ../dada2/table_nomitochloro_gg2_filtered300.qza
 
-qiime taxa filter-table \--i-table ../dada2/cow_table_dada2_filtered300.qza --i-taxonomy taxonomy_gg2.qza \--p-exclude mitochondira,chloroplast,sp004296775 \--p-include c_ \--o-filtered-table ../dada2/table_nomitochloro_gg2_filtered300.qza
+qiime taxa filter-table \--i-table ../dada2/cow_table_dada2_filtered300.qza \--i-taxonomy taxonomy_gg2_filtere.qza \--p-exclude mitochondira,chloroplast,sp004296775 \--p-include c_ \--o-filtered-table ../dada2/table_nomitochloro_gg2_filtered300.qza
 
 ```
-command plugged in... not working, error finding taxonomy
+command plugged in... not working, error finding taxonomy_gg2.qza
 
 - Visualize the taxa bar plot
 ```
