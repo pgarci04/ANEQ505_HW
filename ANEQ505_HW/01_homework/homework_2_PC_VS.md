@@ -100,15 +100,18 @@ c__Bacteroidia
 In both udder and skin samples the ASV d__Bacteria;p__Bacillota_A_368345;c__Clostridia_258483;o__Oscillospirales;f__Oscillospiraceae_88309;g__Faecousia;s__Faecousia sp000434635
 
 **_Question 4**: Which samples (still sorted by body_site) have higher alpha diversity in terms of observed features?
-
+Going based off the taxaplots, fecal sampling has a higher alpha diversity. Fecal samples show a greater variety of bacteria present.
 
 **Question 5**: do all samples contain archaea as well?
+Some of the samples do contain archaea yes. However, depending on the body site, udder and skin samples have more archaea present compared to the other samples.
 
 **Question 6**: why do we filter out sp004296775?
+
 
 **Question 7**: what is the difference between these two flags? 
 --p-exclude mitochondria,chloroplast,sp004296775 \
 --p-include c__ \
+
 
 **Question 8**: do the positive controls look the same as each other? Yes or No?
 
