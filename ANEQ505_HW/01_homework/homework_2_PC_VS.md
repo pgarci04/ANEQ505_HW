@@ -73,16 +73,17 @@ Command worked :)
 ```
 qiime taxa filter-table \--i-table ../dada2/<YourDenoisedTable.qza> \--i-taxonomy taxonomy_gg2.qza \--p-exclude WHAT TO EXCLUDE HERE \--p-include WHAT TO INCLUDE HERE \--o-filtered-table ../dada2/table_nomitochloro_gg2_filtered300.qza
 
-qiime taxa filter-table \--i-table ../dada2/cow_table_dada2_filtered300.qza \--i-taxonomy taxonomy_gg2_filtere.qza \--p-exclude mitochondira,chloroplast,sp004296775 \--p-include c_ \--o-filtered-table ../dada2/table_nomitochloro_gg2_filtered300.qza
+qiime taxa filter-table \--i-table ../dada2/cow_table_dada2_filtered300.qza \--i-taxonomy taxonomy_gg2_filtered.qza \--p-exclude mitochondira,chloroplast,sp004296775 \--p-include c_ \--o-filtered-table ../dada2/table_nomitochloro_gg2_filtered300.qza
 
 ```
-command plugged in... not working, error finding taxonomy_gg2.qza
+command plugged in... not working, error finding taxonomy_gg2.qza, changed that portion to be taxonomy_gg2_filtered.qza
+- Command worked
 
 - Visualize the taxa bar plot
 ```
 qiime taxa barplot \--i-table ../dada2/table_nomitochloro_gg2_filtered300.qza \--i-taxonomy taxonomy_gg2_filtered.qza \--m-metadata-file ../metadata/cow_metadata.txt \--o-visualization ../taxaplots/taxa_barplot_nomitochloro_gg2_filtered300.qzv
 ```
-
+Slay taxa bar plot visualized :) 
 ## Filtered Taxa Bar Plot Questions ~={red}(10 points)=~
 
 **Question 1**: Attach a picture of your taxa bar plot, organized by cow sampling location (body_site) at the level 7 taxonomic level. What general trends do you notice? 
