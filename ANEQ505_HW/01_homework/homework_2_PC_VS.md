@@ -92,9 +92,9 @@ I notice that fecal samples have a greater diversity of organisms present compar
 
 **_Question 2**: What are the top 2 most abundant bacterial **classes** in the fecal samples? 
 most abundant,
-c__Clostridia_258483;o__Oscillospirales;f__Oscillospiraceae_88309;g__Faecousia;s__Faecousia sp000434635
+c__Clostridia
 second most,
-c__Bacteroidia;o__Bacteroidales;f__UBA932;g__Cryptobacteroides;s__Cryptobacteroides sp902787255
+c__Bacteroidia
 
 **_Question 3**: What highly abundant ASV is shared between both the udder and skin samples?
 
