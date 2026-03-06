@@ -166,8 +166,8 @@ dos2unix phylo.sh
 sbatch phylo.sh
 ```
 We will use this file in the next homework!
-Job was submitted in the slurm directory, file was made for the job "tree.sh"...we'll see how it goes
-- If error occurs, i might make the job in the cow directory.
+Job was submitted in the cow directory, file was made for the job "phylo.sh"...we'll see how it goes
+- Slay!! Took a couple tries but it worked :)
 
 ### Once this job finishes, copy and paste what the slurm email says here ~={red}(1 point)=~: 
 
@@ -183,3 +183,18 @@ CPU Efficiency: 12.37% of 1-08:03:52 core-walltime
 Job Wall-clock time: 04:00:29  
 Memory Utilized: 6.55 GB  
 Memory Efficiency: 21.83% of 30.00 GB (3.75 GB/core)
+
+#### My email:
+Job ID: 24510344  
+Cluster: alpine  
+User/Group: pgarci58@colostate.edu/pgarci58pgrp@colostate.edu  
+State: COMPLETED (exit code 0)  
+Nodes: 1  
+Cores per node: 8  
+  
+-------- CPU Metrics --------  
+CPU Utilized: 03:42:31  
+CPU Efficiency: 12.48% of 1-05:43:28 core-walltime  
+Job Wall-clock time: 03:42:56  
+Memory Utilized: 8.43 GiB  
+Memory Efficiency: 28.10% of 30.00 GiB (3.75 GiB/core)
