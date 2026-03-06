@@ -154,7 +154,9 @@ wget --no-check-certificate -P ../tree https://ftp.microbio.me/greengenes_releas
 
 
 #Command
-qiime fragment-insertion sepp \--i-representative-sequences ../dada2/Your_FILTERED_RepresentativeSequencesFile.qza \--i-reference-database ../tree/2022.10.backbone.sepp-reference.qza \--o-tree ../tree/tree_gg2.qza \--o-placements ../tree/tree_placements_gg2.qza
+qiime fragment-insertion sepp \--i-representative-sequences ../dada2/cow_seqs_dada2_filtered300.qza \--i-reference-database ../tree/2022.10.backbone.sepp-reference.qza \--o-tree ../tree/tree_gg2.qza \--o-placements ../tree/tree_placements_gg2.qza
+
+cow_seqs_dada2_filtered300.qza
 ```
 
 - submit the job from the terminal
