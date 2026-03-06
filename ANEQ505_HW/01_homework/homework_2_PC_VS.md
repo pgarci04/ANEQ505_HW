@@ -164,7 +164,8 @@ dos2unix tree.sh
 sbatch tree.sh
 ```
 We will use this file in the next homework!
-Job was submitted in the slurm directory
+Job was submitted in the slurm directory, file was made for the job "tree.sh"...we'll see how it goes
+- If error occurs, i might make the job in the cow directory.
 
 ### Once this job finishes, copy and paste what the slurm email says here ~={red}(1 point)=~: 
 
