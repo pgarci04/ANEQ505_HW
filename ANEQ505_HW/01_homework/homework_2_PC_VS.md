@@ -128,7 +128,7 @@ Create a job script to run the phylogenetic tree building. Remember you must sta
 Go to OnDemand and create a new text file for your job script
 ```
 nano <YourJobName.sh>
-nano tree.sh
+nano phylo.sh
 
 ```
 
@@ -162,8 +162,8 @@ cow_seqs_dada2_filtered300.qza
 - submit the job from the terminal
 ```
 #submit the job
-dos2unix tree.sh
-sbatch tree.sh
+dos2unix phylo.sh
+sbatch phylo.sh
 ```
 We will use this file in the next homework!
 Job was submitted in the slurm directory, file was made for the job "tree.sh"...we'll see how it goes
