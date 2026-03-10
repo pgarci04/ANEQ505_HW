@@ -45,6 +45,8 @@ qiime diversity alpha-rarefaction \--i-table dada2/cow_table_dada2_filtered300.q
 
 ```
 qiime diversity core-metrics-phylogenetic \--i-table INSERT FILTERED TABLE HERE \--i-phylogeny INSERT FILE HERE \--m-metadata-file INSERT FILE HERE \--p-sampling-depth INSERT SEQ DEPTH HERE \--output-dir core_metrics_results
+
+qiime diversity core-metrics-phylogenetic \--i-table taxonomy_gg2_filtered.qza \--i-phylogeny INSERT FILE HERE \--m-metadata-file INSERT FILE HERE \--p-sampling-depth 3000 \--output-dir core_metrics_results
 ```
 
 
