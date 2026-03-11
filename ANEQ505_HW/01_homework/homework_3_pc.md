@@ -73,10 +73,13 @@ Code also worked here :)) yay
 ## Homework questions ~={red}(10 points)=~
 
 1. what is the name of the file you needed to use to figure out what min and max depths to use to generate the alpha rarefaction plot? (Hint: which file contains the sequencing depths for each sample)
-	1. 
+	1. cow_table_dada2.qzv 
 2. what did you choose for the rarefaction depth (the input for core metrics -p-sampling-depth flag)? why? 
+	1. 3000, 
 3. Which cow body location had more observed features? Which has the lowest?
-4. What is the main difference between Faiths PD and Shannons alpha diversity metrics?  
+	1. skin. lowest in nasal
+4. What is the main difference between Faiths PD and Shannons alpha diversity metrics?
+	1. 
 5. Which diversity metrics produced by the core-metrics pipeline require phylogenetic information?
 6. Which two body sites have the highest Faiths PD alpha diversity?  Are the groups significantly different?
 7. Does it seem like there are any groupings in the beta diversity? What are the groupings? 
