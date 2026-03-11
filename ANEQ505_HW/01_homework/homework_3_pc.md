@@ -46,10 +46,10 @@ Code went through and ran :)
 ```
 qiime diversity core-metrics-phylogenetic \--i-table INSERT FILTERED TABLE HERE \--i-phylogeny INSERT FILE HERE \--m-metadata-file INSERT FILE HERE \--p-sampling-depth INSERT SEQ DEPTH HERE \--output-dir core_metrics_results
 
-qiime diversity core-metrics-phylogenetic \--i-table dada2/table_nomitochloro_gg2_filtered300.qza \--i-phylogeny taxonomy/taxonomy_gg2_filtered.qza \--m-metadata-file metadata/cow_metadata.txt \--p-sampling-depth 3000 \--output-dir core_metrics_results
+qiime diversity core-metrics-phylogenetic \--i-table dada2/table_nomitochloro_gg2_filtered300.qza \--i-phylogeny tree/tree_gg2.qza \--m-metadata-file metadata/cow_metadata.txt \--p-sampling-depth 3000 \--output-dir core_metrics_results
 
 ```
-Not very sure on the phylogeny portion.
+Not very sure on the phylogeny portion. Lowkey had to move things around :// But it worked.
 
 ### Visualize alpha diversity plots
 - generate a plot to visualize the observed features ~={red}(1 point)=~
