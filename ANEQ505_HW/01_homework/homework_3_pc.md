@@ -55,15 +55,19 @@ Not very sure on the phylogeny portion. Lowkey had to move things around :// But
 - generate a plot to visualize the observed features ~={red}(1 point)=~
 ```
 qiime diversity alpha-group-significance \--i-alpha-diversity core_metrics_results/FILENAME.qza \--m-metadata-file metadata/cow_metadata.txt \--o-visualization core_metrics_results/OUTPUT-FILENAME.qzv
-```
 
+qiime diversity alpha-group-significance \--i-alpha-diversity core_metrics_results/observed_features_vector.qza \--m-metadata-file metadata/cow_metadata.txt \--o-visualization core_metrics_results/observed_features_vector.qzv
+
+```
+Code put in and code ran slay :))
 - generate a plot to visualize faith's PD ~={red}(2 points)=~
 ```
 ## insert the entire code chunk for generating this visualization 
 
+qiime diversity alpha-group-significance \--i-alpha-diversity core_metrics_results/faith_pd_vector.qza \--m-metadata-file metadata/cow_metadata.txt \--o-visualization core_metrics_results/faith_pd_vector.qzv
 
 ```
-
+Code also worked here :)) yay
 
 
 ## Homework questions ~={red}(10 points)=~
