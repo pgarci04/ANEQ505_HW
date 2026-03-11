@@ -39,18 +39,17 @@ qiime diversity alpha-rarefaction \--i-table dada2/cow_table_dada2_filtered300.q
 
 qiime diversity alpha-rarefaction \--i-table dada2/cow_table_dada2_filtered300.qza \--m-metadata-file metadata/cow_metadata.txt \--o-visualization alpha_rarefaction_curves_16S.qzv \--p-min-depth 10 \--p-max-depth 10000
 ```
-
+Code went through and ran :)
 
 ### Run Core Metrics ~={red}(1 point)=~
 
 ```
 qiime diversity core-metrics-phylogenetic \--i-table INSERT FILTERED TABLE HERE \--i-phylogeny INSERT FILE HERE \--m-metadata-file INSERT FILE HERE \--p-sampling-depth INSERT SEQ DEPTH HERE \--output-dir core_metrics_results
 
-qiime diversity core-metrics-phylogenetic \--i-table table_nomitochloro_gg2_filtered300.qza \--i-phylogeny INSERT FILE HERE \--m-metadata-file INSERT FILE HERE \--p-sampling-depth 3000 \--output-dir core_metrics_results
+qiime diversity core-metrics-phylogenetic \--i-table table_nomitochloro_gg2_filtered300.qza \--i-phylogeny taxonomy_gg2_filtered.qza \--m-metadata-file cow_metadata.txt \--p-sampling-depth 3000 \--output-dir core_metrics_results
 
-find . -name "tree_placements_gg2.qza"
 ```
-
+Not very
 
 ### Visualize alpha diversity plots
 - generate a plot to visualize the observed features ~={red}(1 point)=~
