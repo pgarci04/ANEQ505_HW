@@ -84,11 +84,13 @@ Code also worked here :)) yay
 5. Which diversity metrics produced by the core-metrics pipeline require phylogenetic information?
 	1. Metrics that require phylogenetic information are Faiths PD, weighted and Unweighted UniFrac
 6. Which two body sites have the highest Faiths PD alpha diversity?  Are the groups significantly different?
-	1. The two with the highest Faiths PD are skin samples and fecal samples. And yes they are significantly different
+	1. The two with the highest Faiths PD are skin samples and fecal samples. And yes they are significantly different just from looking at their p values.
 7. Does it seem like there are any groupings in the beta diversity? What are the groupings? 
+	1. There is grouping when looking at beta diversity. The grouping appears as though skin and udder cluster together closer in the middle while fecal clusters in a side closer to axis 2 and nasal clusters on the complete opposite side of fecal. Oral however, is more dispersed between fecal and nasal.
+8. Why do you think these samples are grouping together?
 	1. 
-8. Why do you think these samples are grouping together? 
 9. What test can you run to determine if the groups are significantly different?
+	1. 
 10. What command would you use to run that test?
 
 ```
