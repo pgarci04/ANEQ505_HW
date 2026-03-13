@@ -88,14 +88,15 @@ Code also worked here :)) yay
 7. Does it seem like there are any groupings in the beta diversity? What are the groupings? 
 	1. There is grouping when looking at beta diversity. The grouping appears as though skin and udder cluster together closer in the middle while fecal clusters in a side closer to axis 2 and nasal clusters on the complete opposite side of fecal. Oral however, is more dispersed between fecal and nasal.
 8. Why do you think these samples are grouping together?
-	1. 
+	1. I believe these samples are grouped together because they have a more similar microbial population with one another. Since the groupings are based on body site then it tells me that microbial communities differ depending on the body site, including as to how they can be similar.
 9. What test can you run to determine if the groups are significantly different?
-	1. 
+	1. To test for significance we'd use PERMANOVA on our beta groups in order to be certain that our analysis is meaningful.
 10. What command would you use to run that test?
 
 ```
 #insert command for running the test you suggest from question 7
 
+qiime diversity beta-group-significance \--i-distance-matrix core-metrics-results/weighted_unifrac_distance_matrix.qzaa \--m-metadata-file metadata/metadata.txt \--m-metadata-column body_site \--o-visualization core-metrics-results/unweighted_unifrac_distance_matrix.qzv
 
 
 ```
