@@ -82,8 +82,9 @@ Code also worked here :)) yay
 4. What is the main difference between Faiths PD and Shannons alpha diversity metrics?
 	1. The main difference between Faiths PD and Shannons is that Shannon does NOT use phylogeny while Faiths PD does use phylogenetic information.
 5. Which diversity metrics produced by the core-metrics pipeline require phylogenetic information?
-	1. 
+	1. Metrics that require phylogenetic information are Faiths PD, weighted and Unweighted UniFrac
 6. Which two body sites have the highest Faiths PD alpha diversity?  Are the groups significantly different?
+	1. The two with the highest Faiths PD are skin samples and fecal samples.
 7. Does it seem like there are any groupings in the beta diversity? What are the groupings? 
 8. Why do you think these samples are grouping together? 
 9. What test can you run to determine if the groups are significantly different?
