@@ -20,8 +20,21 @@
               "icon": "lucide-file",
               "title": "r_decomp_tutorial"
             }
+          },
+          {
+            "id": "01b1e9958ce4ad1a",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.12.7"
+              },
+              "icon": "lucide-book-up",
+              "title": "Release Notes 1.12.7"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -184,7 +197,7 @@
       "bases:Create new base": false
     }
   },
-  "active": "9fcd5a169fea2326",
+  "active": "01b1e9958ce4ad1a",
   "lastOpenFiles": [
     "Untitled.md",
     "r_decomp_tutorial.md",
