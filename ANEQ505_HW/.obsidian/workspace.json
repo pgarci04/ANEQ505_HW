@@ -25,12 +25,14 @@
             "id": "01b1e9958ce4ad1a",
             "type": "leaf",
             "state": {
-              "type": "release-notes",
+              "type": "markdown",
               "state": {
-                "currentVersion": "1.12.7"
+                "file": "01_homework/homework_2_PC_VS.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-book-up",
-              "title": "Release Notes 1.12.7"
+              "icon": "lucide-file",
+              "title": "homework_2_PC_VS"
             }
           }
         ],
@@ -199,12 +201,12 @@
   },
   "active": "01b1e9958ce4ad1a",
   "lastOpenFiles": [
+    "01_homework/homework_1_PC Cow data.md",
     "Untitled.md",
     "r_decomp_tutorial.md",
     "Untitled",
     "01_homework/homework_3_pc.md",
     "r_decomp_tutorial",
-    "01_homework/homework_1_PC Cow data.md",
     "01_homework/homework_2_PC_VS.md",
     "taxa_barplot_nomitochloro_gg2_filtered300.qzv - QIIME 2 View.pdf",
     "01_homework/Untitled.md",
