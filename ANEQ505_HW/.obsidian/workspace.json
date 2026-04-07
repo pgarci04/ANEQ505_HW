@@ -4,39 +4,24 @@
     "type": "split",
     "children": [
       {
-        "id": "1d6e8f8d2ebb4cd1",
+        "id": "4d250348b92e5463",
         "type": "tabs",
         "children": [
           {
-            "id": "9fcd5a169fea2326",
+            "id": "552898f95e0feb18",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "r_decomp_tutorial.md",
+                "file": "01_homework/homework_4_pc.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "r_decomp_tutorial"
-            }
-          },
-          {
-            "id": "01b1e9958ce4ad1a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "01_homework/homework_2_PC_VS.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "homework_2_PC_VS"
+              "title": "homework_4_pc"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -199,21 +184,22 @@
       "bases:Create new base": false
     }
   },
-  "active": "01b1e9958ce4ad1a",
+  "active": "552898f95e0feb18",
   "lastOpenFiles": [
+    "taxa_barplot_nomitochloro_gg2_filtered300.qzv - QIIME 2 View.pdf",
+    "01_homework/homework_4_pc.md",
+    "ANEQ505 1.30.md",
+    "r_decomp_tutorial.md",
+    "01_homework/homework_2_PC_VS.md",
     "01_homework/homework_1_PC Cow data.md",
     "Untitled.md",
-    "r_decomp_tutorial.md",
     "Untitled",
     "01_homework/homework_3_pc.md",
     "r_decomp_tutorial",
-    "01_homework/homework_2_PC_VS.md",
-    "taxa_barplot_nomitochloro_gg2_filtered300.qzv - QIIME 2 View.pdf",
     "01_homework/Untitled.md",
     "Welcome.md",
     "Test!!.md",
     "Untitled 1",
-    "ANEQ505 1.30.md",
     "01_homework"
   ]
 }
