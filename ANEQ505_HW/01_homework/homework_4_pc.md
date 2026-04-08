@@ -57,16 +57,16 @@ cow_r
 **Read in metadata ~={red}(1 point)=~**
 - Fill in the file path you used in the R Markdown to load the metadata. 
 ```
-metadata <- read_tsv("../YOUR FILE PATH HERE")
-
-
+metadata <- read_tsv("../03_metadata/cow_metadata.txt")
 ```
+ran code, it worked slay!! Thank you Victoria 
 
 **Read in alpha diversity data ~={red}(1 point)=~**
 - Fill in the file path you used in the R Markdown to load the shannon data
 ```
-shannon <- read_tsv("YOUR FILE PATH HERE")
+shannon <- read_tsv("../04_code/alpha_div/shannon.tsv")
 ```
+ran code it worked :)
 
 **Read in beta diversity data ~={red}(1 point)=~**
 - Fill in the file path you used in the R Markdown to load the unweighted unifrac data
