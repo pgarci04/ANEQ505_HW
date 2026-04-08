@@ -73,13 +73,14 @@ ran code it worked :)
 ```
 uw_unifrac <- read_tsv("YOUR FILE PATH HERE")
 ```
+ran code it worked :) slay
 
 **Load in tabulated results ~={red}(1 point)=~**
 - Fill in the file path you used in the R Markdown to load the tabulated_results.tsv
 ```
 tabulated_results <- read_tsv("YOUR FILE PATH HERE")
 ```
-
+ran and it worked!!
 #### Cow Body Site - ANCOM-BC2 in Qiime2
 **Start an interactive session and activate Qiime2**
 ```
