@@ -71,14 +71,14 @@ ran code it worked :)
 **Read in beta diversity data ~={red}(1 point)=~**
 - Fill in the file path you used in the R Markdown to load the unweighted unifrac data
 ```
-uw_unifrac <- read_tsv("YOUR FILE PATH HERE")
+uw_unifrac <- read_tsv("beta_div/unweighted_unifrac.txt")
 ```
 ran code it worked :) slay
 
 **Load in tabulated results ~={red}(1 point)=~**
 - Fill in the file path you used in the R Markdown to load the tabulated_results.tsv
 ```
-tabulated_results <- read_tsv("YOUR FILE PATH HERE")
+tabulated_results <- read_tsv("taxonomy/tabulated_results.tsv")
 ```
 ran and it worked!!
 #### Cow Body Site - ANCOM-BC2 in Qiime2
