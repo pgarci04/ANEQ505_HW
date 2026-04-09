@@ -100,7 +100,7 @@ module load qiime2/2026.1_amplicon
 # Get matadata with no controls
 cp /pl/active/courses/2025_summer/CSU_2025/cow_hw/cow_metadata_nocontrols.txt .
 
-qiime feature-table filter-samples \--i-table ../dada2/table_nomitochloro_gg2_filtered300.qza \--m-metadata-file cow_metadata_nocontrols.txt \--o-filtered-table table_nomitochlorocontrols_gg2_filtered300.qza
+qiime feature-table filter-samples \--i-table /dada2/table_nomitochloro_gg2_filtered300.qza \--m-metadata-file cow_metadata_nocontrols.txt \--o-filtered-table table_nomitochlorocontrols_gg2_filtered300.qza
 ```
 
 **Filter Samples ~={red}(1 point)=~** 
