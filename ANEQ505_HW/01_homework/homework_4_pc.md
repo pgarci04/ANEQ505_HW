@@ -136,20 +136,22 @@ Command ran and worked...slay
 ```
 qiime composition ancombc2 \--i-table table_5k_abund_6.qza \--m-metadata-file cow_metadata_nocontrols.txt \--p-fixed-effects-formula body_site \--o-ancombc2-output ancombc2_results_bodysite_genus.qza
 ```
-
+ran and it ran beautifully :)
 
 **Visualize the ANCOM-BC2 results ~={red}(1 point)=~**
 - Generate a barplot to visualize the differentially abundant features. 
 ```
 qiime composition tabulate \--i-data INPUT FILE \--o-visualization ancombc2_bodysite_genus.qzv
   
-qiime composition ancombc2-visualizer \--i-data INPUT FILE \--o-visualization ancombc2_barplot_bodysite_genus.qzv
+qiime composition ancombc2-visualizer \--i-data ancombc2_results_bodysite_genus.qza \--o-visualization ancombc2_barplot_bodysite_genus.qzv
 ```
-
+yesss, code ran and worked :))
 ## Homework questions: (~={red}5 POINTS=~)
 1. Describe one way to get data from your qiime2 outputs into a format that can be used for R. 
+One way to get data from qiime2 and into R is to download them to your computer, but this makes it so they can be read in R. So, you have to convert them from QIIME, where it's usually .qza, you download them to .tsv. Then you make a folder directory with the respective directory names and having a pathway set, then you can go into R and run your project.
 
 2. Which body site appeared most distinct in the taxa bar plot, meaning it was not similar to at least one of the other body sites? Explain why that site looks different. 
+
 
 3. When generating the filtered table for ANCOM-BC2, what value did you choose for `--p-min-frequency`? Which core metrics parameter should this match, and why do these values need to be the same? (Report your core metrics value here:     ___) 
 
