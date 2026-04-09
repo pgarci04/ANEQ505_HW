@@ -118,6 +118,7 @@ Command went through and ran :)) yis
 ```
 qiime feature-table filter-features \--i-table table_nomitochlorocontrols_gg2_filtered300.qza \--p-min-frequency 50 \--p-min-samples 20 \--o-filtered-table table_5k_abund.qza
 ```
+Ran command and worked :))
 
 **Collapse features to genus level ~={red}(1 point)=~**
 - We will collapse to the genus level to make it easier to interpret the results. (Hint: We used 7 for species, so think about which number you would use for genus.)
@@ -127,7 +128,7 @@ qiime taxa collapse \--i-table table_5k_abund.qza \--i-taxonomy ../taxonomy/taxo
 
 qiime taxa collapse \--i-table table_5k_abund.qza \--i-taxonomy taxonomy/taxonomy_gg2.qza \--p-level 6 \--o-collapsed-table table_5k_abund_6.qza
 ```
-
+Happened to me before, taxonomy_gg2.qza does not exist b
 
 **Run ANCOM-BC2 ~={red}(1 point)=~**
 
