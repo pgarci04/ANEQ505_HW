@@ -148,10 +148,12 @@ qiime composition ancombc2-visualizer \--i-data ancombc2_results_bodysite_genus.
 yesss, code ran and worked :))
 ## Homework questions: (~={red}5 POINTS=~)
 1. Describe one way to get data from your qiime2 outputs into a format that can be used for R. 
+
 One way to get data from qiime2 and into R is to download them to your computer, but this makes it so they can be read in R. So, you have to convert them from QIIME, where it's usually .qza, you download them to .tsv. Then you make a folder directory with the respective directory names and having a pathway set, then you can go into R and run your project.
 
 2. Which body site appeared most distinct in the taxa bar plot, meaning it was not similar to at least one of the other body sites? Explain why that site looks different. 
-The body site that I found to be the most different was oral. I found tha skin and udder were very similar and nasal still had some similarity with them but oral was the most different between the four of them.
+
+The body site that I found to be the most different was oral. I found that skin and udder were very similar and nasal still had some similarity with them but oral was the most different between the four of them.
 
 3. When generating the filtered table for ANCOM-BC2, what value did you choose for `--p-min-frequency`? Which core metrics parameter should this match, and why do these values need to be the same? (Report your core metrics value here: 3,000 ___) 
 
@@ -161,6 +163,7 @@ When generating my filtered table, I chose 3,000 as my frequency. That's because
 Filtering out with low frequency and low abundance ASV it limits false discovery rate penalty or (FDR) on any of our reads that are too below the noise threshold to be applicable to our statistical test.
 
 5. What was the most enriched genus in skin compared to fecal, and what was the most depleted genus in skin compared to fecal (make sure adjusted p is set to less than 0.05)?
+
 The most enriched genus in skin is Atopostipes. The most depleted genus in skin is Mannheimia.
 
 ## Extra credit~={orange} (3 points)=~ generate a classification model to see how well we can predict cow body site
