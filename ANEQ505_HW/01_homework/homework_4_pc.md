@@ -154,13 +154,14 @@ One way to get data from qiime2 and into R is to download them to your computer,
 The body site that I found to be the most different was oral. I found tha skin and udder were very similar and nasal still had some similarity with them but oral was the most different between the four of them.
 
 3. When generating the filtered table for ANCOM-BC2, what value did you choose for `--p-min-frequency`? Which core metrics parameter should this match, and why do these values need to be the same? (Report your core metrics value here: 3,000 ___) 
+
 When generating my filtered table, I chose 3,000 as my frequency. That's because during class we discussed that our frequency for ANCOM we have to filter out samples with fewer features than from what we rarified at. So, in order to do that we put in the max value we rarified to match for the p min frequency.
 
-4. Why do we filter out samples with low frequency and low abundance ASVs?
+5. Why do we filter out samples with low frequency and low abundance ASVs?
 Filtering out with low frequency and low abundance ASV it limits false discovery rate penalty or (FDR) on any of our reads that are too below the noise threshold to be applicable to our statistical test.
 
 5. What was the most enriched genus in skin compared to fecal, and what was the most depleted genus in skin compared to fecal (make sure adjusted p is set to less than 0.05)?
-	
+The most enriched genus in skin is Atopostipes. The most depleted genus in skin is Mannheimia.
 
 ## Extra credit~={orange} (3 points)=~ generate a classification model to see how well we can predict cow body site
 
