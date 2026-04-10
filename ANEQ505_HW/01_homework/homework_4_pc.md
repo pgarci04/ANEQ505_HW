@@ -176,7 +176,7 @@ cd ml
 #remove controls
 qiime feature-table filter-samples \--i-table ../core_metrics_results/rarefied_table.qza \--m-metadata-file ../metadata/cow_metadata.txt \--p-where "[body_site] != 'control'" \--o-filtered-table rarefied_table_no_controls.qza
 
-qiime taxa collapse \--i-table rarefied_table_no_controls.qza \--i-taxonomy /taxonomy/taxonomy_gg2_filtered.qza \--p-level 7 \--o-collapsed-table rarefied_table_no_controls_L7.qza
+qiime taxa collapse \--i-table rarefied_table_no_controls.qza \--i-taxonomy ../taxonomy/taxonomy_gg2_filtered.qza \--p-level 7 \--o-collapsed-table rarefied_table_no_controls_L7.qza
 ```
 
 ```
@@ -185,7 +185,7 @@ qiime sample-classifier classify-samples \--i-table rarefied_table_no_controls_L
 
 ### **Questions:**
 1. Why might removing controls be important before downstream analysis? 
-	1. 
+	1. Removing controls before downstream analysis is to remove any kind of contamination
 2. what 2 features that are high in fecal samples? 
 	1. 
 3. what are 2 features that are low in nasal?
