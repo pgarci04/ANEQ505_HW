@@ -176,15 +176,18 @@ cd ml
 #remove controls
 qiime feature-table filter-samples \--i-table ../core_metrics_results/rarefied_table.qza \--m-metadata-file ../metadata/cow_metadata.txt \--p-where "[body_site] != 'control'" \--o-filtered-table rarefied_table_no_controls.qza
 
-qiime taxa collapse \--i-table rarefied_table_no_controls.qza \--i-taxonomy ../taxonomy/taxonomy_gg2.qza \--p-level 7 \--o-collapsed-table rarefied_table_no_controls_L7.qza
+qiime taxa collapse \--i-table rarefied_table_no_controls.qza \--i-taxonomy /taxonomy/taxonomy_gg2_filtered.qza \--p-level 7 \--o-collapsed-table rarefied_table_no_controls_L7.qza
 ```
 
 ```
-qiime sample-classifier classify-samples \--i-table rarefied_table_no_controls_L7.qza \--m-metadata-file ../metadata/cow_metadata_nocontrols.txt \--m-metadata-column WHAT TO TEST \--p-random-state 123 \--p-n-jobs 1 \--output-dir sample_classifier_results_bodysite
+qiime sample-classifier classify-samples \--i-table rarefied_table_no_controls_L7.qza \--m-metadata-file ../metadata/cow_metadata_nocontrols.txt \--m-metadata-column body_site \--p-random-state 123 \--p-n-jobs 1 \--output-dir sample_classifier_results_bodysite
 ```
 
 ### **Questions:**
 1. Why might removing controls be important before downstream analysis? 
+	1. 
 2. what 2 features that are high in fecal samples? 
+	1. 
 3. what are 2 features that are low in nasal?
+	1. 
 4. what is the accuracy of your model, and if the accuracy of the classifier is high, what does that suggest about the microbial compositions of each site?
