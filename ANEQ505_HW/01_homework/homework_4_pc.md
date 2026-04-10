@@ -154,6 +154,7 @@ One way to get data from qiime2 and into R is to download them to your computer,
 
 
 3. When generating the filtered table for ANCOM-BC2, what value did you choose for `--p-min-frequency`? Which core metrics parameter should this match, and why do these values need to be the same? (Report your core metrics value here:     ___) 
+When generating my filtered table, I chose 3,000 as my frequency. That's because during class we discussed that our frequency for ANCOM had to match the p max for our core metrics. 
 
 4. Why do we filter out samples with low frequency and low abundance ASVs?
 
