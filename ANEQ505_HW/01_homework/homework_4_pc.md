@@ -189,6 +189,6 @@ qiime sample-classifier classify-samples \--i-table rarefied_table_no_controls_L
 2. what 2 features that are high in fecal samples? 
 	1. Based on my taxa bar plots the 2 abundant features are Acutalibacteraceae and CAG-138.
 3. what are 2 features that are low in nasal?
-	1. 
+	1. 2 low features in nasal are Muribaculaceae and Succinivibrionaceae.
 4. what is the accuracy of your model, and if the accuracy of the classifier is high, what does that suggest about the microbial compositions of each site?
-	1. 
+	1. The accuracy of my model may have come to an error. But if the classifier is high that it would suggest that the microbial composition is more accurate or precise. For me it looks as though I got a 1 for each sample. Which makes me a little worried.
