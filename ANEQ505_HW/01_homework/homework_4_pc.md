@@ -153,7 +153,7 @@ One way to get data from qiime2 and into R is to download them to your computer,
 
 2. Which body site appeared most distinct in the taxa bar plot, meaning it was not similar to at least one of the other body sites? Explain why that site looks different. 
 
-The body site that I found to be the most different was nasal. The nasal cavity provides a completely different environment compared to skin, udder, and even oral. Nasal constantly has airflow and is exposed to outside elements constantly. Additionally, the nasal has mucus that helps fight any kind of pathogens or harmful bacteria. With that in mind, those different atributes wpassing through 
+The body site that I found to be the most different was nasal. The nasal cavity provides a completely different environment compared to skin, udder, and even oral. Nasal constantly has airflow and is exposed to outside elements constantly. Additionally, the nasal has mucus that helps fight any kind of pathogens or harmful bacteria. With that in mind, those different attributes would cause microbial communities to be different compared to the other body sites.
 
 3. When generating the filtered table for ANCOM-BC2, what value did you choose for `--p-min-frequency`? Which core metrics parameter should this match, and why do these values need to be the same? (Report your core metrics value here: 3,000 ___) 
 
