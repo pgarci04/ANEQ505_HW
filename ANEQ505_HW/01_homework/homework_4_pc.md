@@ -153,10 +153,11 @@ One way to get data from qiime2 and into R is to download them to your computer,
 2. Which body site appeared most distinct in the taxa bar plot, meaning it was not similar to at least one of the other body sites? Explain why that site looks different. 
 
 
-3. When generating the filtered table for ANCOM-BC2, what value did you choose for `--p-min-frequency`? Which core metrics parameter should this match, and why do these values need to be the same? (Report your core metrics value here:     ___) 
-When generating my filtered table, I chose 3,000 as my frequency. That's because during class we discussed that our frequency for ANCOM had to match the p max for our core metrics. 
+3. When generating the filtered table for ANCOM-BC2, what value did you choose for `--p-min-frequency`? Which core metrics parameter should this match, and why do these values need to be the same? (Report your core metrics value here: 3,000 ___) 
+When generating my filtered table, I chose 3,000 as my frequency. That's because during class we discussed that our frequency for ANCOM we have to filter out samples with fewer features than from what we rarified at. So, in order to do that we put in the max value we rarified to match for the p min frequency.
 
 4. Why do we filter out samples with low frequency and low abundance ASVs?
+Filtering out with low frequency and low abundance ASV
 
 5. What was the most enriched genus in skin compared to fecal, and what was the most depleted genus in skin compared to fecal (make sure adjusted p is set to less than 0.05)?
 	
