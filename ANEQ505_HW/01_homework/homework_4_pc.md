@@ -185,9 +185,10 @@ qiime sample-classifier classify-samples \--i-table rarefied_table_no_controls_L
 
 ### **Questions:**
 1. Why might removing controls be important before downstream analysis? 
-	1. Removing controls before downstream analysis is to remove any kind of contamination
+	1. Removing controls before downstream analysis is to remove any kind of contamination that does not represent any kind of biological differences we're looking for.
 2. what 2 features that are high in fecal samples? 
-	1. 
+	1. Based on my taxa bar plots the 2 abundant features are Acutalibacteraceae and CAG-138.
 3. what are 2 features that are low in nasal?
 	1. 
 4. what is the accuracy of your model, and if the accuracy of the classifier is high, what does that suggest about the microbial compositions of each site?
+	1. 
