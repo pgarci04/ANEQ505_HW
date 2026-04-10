@@ -191,4 +191,4 @@ qiime sample-classifier classify-samples \--i-table rarefied_table_no_controls_L
 3. what are 2 features that are low in nasal?
 	1. 2 low features in nasal are Muribaculaceae and Succinivibrionaceae.
 4. what is the accuracy of your model, and if the accuracy of the classifier is high, what does that suggest about the microbial compositions of each site?
-	1. The accuracy of my model may have come to an error. But if the classifier is high that it would suggest that the microbial composition is more accurate or precise. For me it looks as though I got a 1 for each sample. Which makes me a little worried.
+	1. The accuracy of my model may have come to an error. But if the classifier is high that it would suggest that the microbial composition is more accurate or precise. For me it looks as though I got a 1 for each sample, on a diagonal from the top left to the bottom right.
