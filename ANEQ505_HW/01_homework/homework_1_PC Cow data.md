@@ -46,6 +46,9 @@ We will first begin by copying raw sequencing data from a public folder on Alpin
 
 ```
 cp -r /pl/active/courses/2024_summer/maw_2024/raw_reads .
+
+cp - r /pl/active/courses/2025_summer/CSU_2025/raw_reads_oxycow .
+
 ```
 
 
