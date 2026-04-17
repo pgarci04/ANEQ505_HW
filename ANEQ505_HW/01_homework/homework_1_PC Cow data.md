@@ -47,7 +47,7 @@ We will first begin by copying raw sequencing data from a public folder on Alpin
 ```
 cp -r /pl/active/courses/2024_summer/maw_2024/raw_reads .
 
-cp - r /pl/active/courses/2025_summer/CSU_2025/raw_reads_oxycow .
+cp -r /pl/active/courses/2025_summer/CSU_2025/raw_reads_oxycow .
 
 ```
 
@@ -87,10 +87,28 @@ See script below: import.sh
 
 # Activate Qiime2
 module purge
-module load qiime2/2024.10_amplicon
+module load qiime2/2026.1_amplicon
 
 # Importing qiime2 sequences
 qiime tools import \--type EMPPairedEndSequences \--input-path raw_reads \--output-path cow_reads.qza
+
+#!/bin/bash
+#SBATCH --job-name=demux
+#SBATCH --nodes=1
+#SBATCH --ntasks=12
+#SBATCH --partition=amilan
+#SBATCH --time=02:00:00
+#SBATCH --mail-type=ALL
+#SBATCH --output=slurm-%j.out
+#SBATCH --qos=normal
+#SBATCH --mail-user=pgarci58@colostate.edu
+
+# Activate Qiime2
+module purge
+module load qiime2/2026.1_amplicon
+
+# Importing qiime2 sequences
+qiime tools import \--type EMPPairedEndSequences \--input-path raw_reads_oxycow \--output-path oxycow_reads.qza
 ```
 
 To submit script
