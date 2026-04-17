@@ -135,11 +135,9 @@ a.    Go into your slurm directory using OnDemand. Create a new file named **
 #SBATCH --qos=normal
 #SBATCH --mail-user=pgarci58@colostate.edu
 
-#What needs to go here in order to “turn on” qiime2? Hint: we do these 2 commands every time we activate qiime2!
-
 # Activate Qiime2
 module purge
-module load qiime2/2024.10_amplicon
+module load qiime2/2026.1_amplicon
 
 ```
 
@@ -152,10 +150,10 @@ qiime demux emp-paired \--m-barcodes-file ../metadata/ADD BARCODE FILE NAME HERE
 
 - barcode file name added below
 ```
-```qiime demux emp-paired \--m-barcodes-file ../metadata/cow_barcodes.txt --m-barcodes-column barcode \--p-rev-comp-mapping-barcodes \--p-rev-comp-barcodes \--i-seqs ../cow_reads.qza \--o-per-sample-sequences demux_cow.qza \--o-error-correction-details cow_demux_error.qza
+```qiime demux emp-paired \--m-barcodes-file ../metadata/oxycow_barcodes.txt --m-barcodes-column barcode \--p-rev-comp-mapping-barcodes \--p-rev-comp-barcodes \--i-seqs ../oxycow_reads.qza \--o-per-sample-sequences demux_oxycow.qza \--o-error-correction-details oxycow_demux_error.qza
 
 #visualize the read quality
-qiime demux summarize \--i-data demux_cow.qza \--o-visualization demux_cow.qzv
+qiime demux summarize \--i-data demux_oxycow.qza \--o-visualization demux_oxycow.qzv
 ```
 
 
