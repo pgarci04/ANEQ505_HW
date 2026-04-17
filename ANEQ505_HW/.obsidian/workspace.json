@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01_homework/homework_4_pc.md",
+                "file": "01_homework/homework_1_PC Cow data.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "homework_4_pc"
+              "title": "homework_1_PC Cow data"
             }
           }
         ]
@@ -186,8 +186,8 @@
   },
   "active": "552898f95e0feb18",
   "lastOpenFiles": [
-    "01_homework/homework_1_PC Cow data.md",
     "01_homework/homework_4_pc.md",
+    "01_homework/homework_1_PC Cow data.md",
     "01_homework/homework_3_pc.md",
     "taxa_barplot_nomitochloro_gg2_filtered300.qzv - QIIME 2 View.pdf",
     "ANEQ505 1.30.md",
