@@ -65,6 +65,8 @@ module purge
 
 module load qiime2/2024.10_amplicon
 
+module load qiime2/2024.10_amplicon
+
 ```
 
 
@@ -113,6 +115,8 @@ qiime tools import \--type EMPPairedEndSequences \--input-path raw_reads_oxycow 
 
 To submit script
 ```
+sbatch import.sh
+
 sbatch import.sh
 ```
 job failed :( directory name was changed (by me oops) and failed the job.
