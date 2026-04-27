@@ -39,15 +39,13 @@ Submit a job??
 `module purge
 `module load qiime2/2026.1_amplicon`
 
-``#Importing 
-# Activate Qiime2
-module purge
-module load qiime2/2026.1_amplicon
+``# Importing qiime2 sequences
+`qiime demux emp-paired \--m-barcodes-file ../metadata/oxycow_barcodes.txt --m-barcodes-column Barcode \--p-rev-comp-mapping-barcodes \--p-rev-comp-barcodes \--i-seqs ../oxycow_reads.qza \--o-per-sample-sequences demux_oxycow.qza \--o-error-correction-details oxycow_demux_error.qza`
 
- Run the script in your slurm directory as a job using: 
- ```
- dos2unix name of your script.sh
- sbatch name of your script.sh
- 
- dos2unix demux.sh
- sbatch demux.sh
+`#visualize the read quality
+`qiime demux summarize \--i-data demux_oxycow.qza \--o-visualization demux_oxycow.qzv`
+
+To submit...
+`dos2unix demux.sh
+ `sbatch demux.sh`
+
