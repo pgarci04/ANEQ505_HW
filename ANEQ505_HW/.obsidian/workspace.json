@@ -29,7 +29,8 @@
               "state": {
                 "file": "Oxycow_analysis.md",
                 "mode": "source",
-                "source": false
+                "source": false,
+                "backlinks": false
               },
               "icon": "lucide-file",
               "title": "Oxycow_analysis"
@@ -68,7 +69,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:#Demultiplex",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
