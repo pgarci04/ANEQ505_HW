@@ -1,0 +1,3 @@
+Beginning by... making directories with their respective files...
+- attaching within metadata, the metadata text and barcodes
+- 
