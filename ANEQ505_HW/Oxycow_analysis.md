@@ -22,6 +22,28 @@ then you visualize
 `#visualize the read quality:
 `qiime demux summarize \--i-data demux_oxycow.qza \--o-visualization demux_oxycow.qzv`
 
+Submit a job??
+
+`#!/bin/bash
+`#SBATCH --job-name=demux
+`#SBATCH --nodes=1
+`#SBATCH --ntasks=12
+`#SBATCH --partition=amilan
+`#SBATCH --time=02:00:00
+`#SBATCH --mail-type=ALL
+`#SBATCH --output=slurm-%j.out
+`#SBATCH --qos=normal
+`#SBATCH --mail-user=pgarci58@colostate.edu
+
+`# Activate Qiime2
+`module purge
+`module load qiime2/2026.1_amplicon`
+
+``#Importing 
+# Activate Qiime2
+module purge
+module load qiime2/2026.1_amplicon
+
  Run the script in your slurm directory as a job using: 
  ```
  dos2unix name of your script.sh
