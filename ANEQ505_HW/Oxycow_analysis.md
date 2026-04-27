@@ -14,6 +14,18 @@ Importing sequence reads into my respective directories...
 
 *Demultiplex*
 
-A job was submitted in my demux... and then there's this code to
+A job was submitted in my demux... and then there's this code to run
 
 `qiime demux emp-paired \--m-barcodes-file ../metadata/oxycow_barcodes.txt --m-barcodes-column Barcode \--p-rev-comp-mapping-barcodes \--p-rev-comp-barcodes \--i-seqs ../oxycow_reads.qza \--o-per-sample-sequences demux_oxycow.qza \--o-error-correction-details oxycow_demux_error.qza`
+
+then you visualize
+`#visualize the read quality:
+`qiime demux summarize \--i-data demux_oxycow.qza \--o-visualization demux_oxycow.qzv`
+
+ Run the script in your slurm directory as a job using: 
+ ```
+ dos2unix name of your script.sh
+ sbatch name of your script.sh
+ 
+ dos2unix demux.sh
+ sbatch demux.sh
