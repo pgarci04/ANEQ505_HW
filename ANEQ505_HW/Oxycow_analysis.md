@@ -66,4 +66,4 @@ NR==1 {print; next}
 ```
 
 Denoise
-- Rename for the metadata s
+- Rename for the metadata sections and the barcode clean text.
