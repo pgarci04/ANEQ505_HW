@@ -48,4 +48,18 @@ Submit a job??
 To submit...
 `dos2unix demux.sh
  `sbatch demux.sh`
+- Job failed, based off Catie's notes it with the sample ID names with "/"
+
+Checking to see those with "/"
+`head oxy_barcodes.txt
+
+clean copy
+awk 'BEGIN{FS=OFS="\t"} 
+NR==1 {print; next} 
+{
+  gsub(/\//, "_", $1)
+  gsub(/:/, "_", $1)
+  gsub(/ /, "", $1)
+  print
+}' oxy_barcodes.txt > oxy_barcodes_clean.txt
 
