@@ -40,7 +40,8 @@ Submit a job??
 `module load qiime2/2026.1_amplicon`
 
 ``# Importing qiime2 sequences
-`qiime demux emp-paired \--m-barcodes-file ../metadata/oxycow_barcodes.txt --m-barcodes-column Barcode \--p-rev-comp-mapping-barcodes \--p-rev-comp-barcodes \--i-seqs ../oxycow_reads.qza \--o-per-sample-sequences demux_oxycow.qza \--o-error-correction-details oxycow_demux_error.qza`
+```
+qiime demux emp-paired \--m-barcodes-file ../metadata/oxy_barcodes_clean2.txt --m-barcodes-column Barcode \--p-rev-comp-mapping-barcodes \--p-rev-comp-barcodes \--i-seqs ../oxycow_reads.qza \--o-per-sample-sequences demux_oxycow.qza \--o-error-correction-details oxycow_demux_error.qza
 
 `#visualize the read quality
 `qiime demux summarize \--i-data demux_oxycow.qza \--o-visualization demux_oxycow.qzv`
@@ -62,4 +63,7 @@ NR==1 {print; next}
   gsub(/ /, "", $1)
   print
 }' oxy_barcodes.txt > oxy_barcodes_clean.txt
+```
 
+Denoise
+- Rename for the metadata s
