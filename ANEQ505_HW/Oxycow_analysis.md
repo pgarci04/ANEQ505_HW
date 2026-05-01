@@ -85,12 +85,11 @@ qiime feature-table summarize \--i-table cow_table_dada2.qza \ --o-feature-frequ
 
 qiime feature-table tabulate-seqs \--i-data cow_seqs_dada2.qza \--o-visualization cow_seqs_dada2.qzv
 ```
-qiime metadata tabulate \--m-input-file cow_dada2_stats.qza \--o-visualization cow_dada2_stats.qzv
 
-qiime feature-table summarize \--i-table cow_table_dada2.qza \--m-sample-metadata-file ../metadata/oxycow_metadata_final.txt \--o-visualization cow_table_dada2.qzv
-
-qiime feature-table tabulate-seqs \--i-data cow_seqs_dada2.qza \--o-visualization cow_seqs_dada2.qzv
 ```
-
 **metadata, making two groups to separate the ID's. One with the control then oxy, and the second with oxy then control.
 
+ clustering, rep seq, feture table,
+ alignment, taxonomic classify
+ phylogeny, taxonomy
+ to then later use diversity analysis...
