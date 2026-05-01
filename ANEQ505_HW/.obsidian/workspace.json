@@ -36,8 +36,7 @@
               "title": "Oxycow_analysis"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -200,11 +199,11 @@
       "bases:Create new base": false
     }
   },
-  "active": "9f03d766a36e8f18",
+  "active": "552898f95e0feb18",
   "lastOpenFiles": [
+    "Oxycow_analysis.md",
     "01_homework/homework_2_PC_VS.md",
     "01_homework/homework_1_PC Cow data.md",
-    "Oxycow_analysis.md",
     "ANEQ505 1.30.md",
     "01_homework/homework_4_pc.md",
     "oxycow_analysis/Untitled.md",
