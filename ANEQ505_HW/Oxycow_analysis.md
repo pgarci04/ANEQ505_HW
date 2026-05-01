@@ -3,9 +3,11 @@ Beginning by... making directories with their respective files...
 - And the reverse, forward, and barcodes of the data
 
 Starting..
-`ainteractive --ntasks=6 --time=04:00:00
-`module purge
-`module load qiime2/2026.1_amplicon
+```
+ainteractive --ntasks=6 --time=04:00:00
+module purge
+module load qiime2/2026.1_amplicon
+```
 
 Importing sequence reads into my respective directories...
 `qiime tools import \--type EMPPairedEndSequences \--input-path raw_reads_oxycow \--output-path oxycow_reads.qza`
@@ -81,3 +83,4 @@ qiime feature-table summarize \--i-table cow_table_dada2.qza \--m-sample-metadat
 
 qiime feature-table tabulate-seqs \--i-data cow_seqs_dada2.qza \--o-visualization cow_seqs_dada2.qzv
 ```
+
