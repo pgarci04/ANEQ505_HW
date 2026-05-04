@@ -84,6 +84,34 @@ qiime metadata tabulate \--m-input-file cow_dada2_stats.qza \--o-visualization 
 qiime feature-table summarize \--i-table cow_table_dada2.qza \ --o-feature-frequencies feature-frequencies.qza \ --o-sample-frequencies sample-frequencies.qza \ --o-summary dada2_visual_summary.qzv
 
 qiime feature-table tabulate-seqs \--i-data cow_seqs_dada2.qza \--o-visualization cow_seqs_dada2.qzv
+
+submitting job
+#!/bin/bash
+#SBATCH --job-name=dada2slurm
+#SBATCH --nodes=1
+#SBATCH --ntasks=12
+#SBATCH --partition=amilan
+#SBATCH --time=02:00:00
+#SBATCH --mail-type=ALL
+#SBATCH --output=slurm-%j.out
+#SBATCH --qos=normal
+#SBATCH --mail-user=pgarci58@colostate.edu
+
+# Activate Qiime2
+module purge
+module load qiime2/2026.1_amplicon`
+
+# Importing qiime2 sequences
+qiime dada2 denoise-paired \--i-demultiplexed-seqs ../demux/demux_oxycow.qza \--p-trim-left-f 0 \--p-trim-left-r 0 \--p-trunc-len-f 250 \--p-trunc-len-r 250 \--p-n-threads 6 \--o-representative-sequences cow_seqs_dada2.qza \--o-denoising-stats cow_dada2_stats.qza \--o-table cow_table_dada2.qza \--o-base-transition-stats base-transition-stats.qza
+
+#visualize the read quality
+qiime metadata tabulate \--m-input-file cow_dada2_stats.qza \--o-visualization cow_dada2_stats.qzv
+
+qiime feature-table summarize \--i-table cow_table_dada2.qza \ --o-feature-frequencies feature-frequencies.qza \ --o-sample-frequencies sample-frequencies.qza \ --o-summary dada2_visual_summary.qzv
+
+qiime feature-table tabulate-seqs \--i-data cow_seqs_dada2.qza \--o-visualization cow_seqs_dada2.qzv
+```
+
 ```
 
 ```
