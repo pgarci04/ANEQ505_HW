@@ -121,7 +121,7 @@ qiime feature-table tabulate-seqs \--i-data cow_seqs_dada2.qza \--o-visualizatio
  alignment, taxonomic classify
  phylogeny, taxonomy
  to then later use diversity analysis...
-```
+
 
 For feature table
 ```
@@ -134,3 +134,4 @@ qiime feature-table filter-features \--i-table cow_table_dada2.qza \--m-metadata
 qiime feature-table summarize \--i-table cow_table_dada2_filtered300.qza \--m-sample-metadata-file ../metadata/cow_metadata.txt \--o-visualization cow_table_dada2_filtered300.qzv
 ```
 
+- Need to use new metadata set that involves which groups are which... 
